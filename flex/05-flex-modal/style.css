@@ -20,6 +20,26 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 1rem;
+  display: flex;
+}
+
+.content {
+  margin-left: 1rem;
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  gap:0.5rem;
+}
+
+.header {
+  display: flex;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-right:auto ;
 }
 
 .icon {
